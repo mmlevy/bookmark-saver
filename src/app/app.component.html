@@ -1,0 +1,12 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to bookmark saver. Please log in:
+  </h1>
+  <form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+    <span>Username: </span><input name="first" ngModel required #first="ngModel">
+    <br>
+    <span>Password: </span><input name="last" ngModel>
+    <br>
+    <button>Login</button>
+  </form>
+</div>
