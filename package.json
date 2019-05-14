@@ -1,0 +1,18 @@
+{
+  "name": "bookmark-saver",
+  "version": "0.0.1",
+  "private": true,
+  "main": "app/server/main.js",
+  "author": "mlevy",
+  "dependencies": {
+    "angular": "1.7.8",
+    "body-parser": "^1.19.0",
+    "express": "4.14.0",
+    "http": "0.0.0",
+    "lodash": "3.10.1",
+    "path": "^0.12.7",
+    "semver": "5.3.0"
+  },
+  "devDependencies": {},
+  "engine-strict": true
+}
